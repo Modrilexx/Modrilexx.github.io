@@ -40,3 +40,30 @@ if (auditForm) {
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
   });
 }
+
+// CTA focus helpers
+function jumpToContactAndFocus(selector) {
+  const anchor = document.getElementById("contact-anchor");
+  if (anchor) anchor.scrollIntoView({ behavior: "smooth", block: "start" });
+
+  setTimeout(() => {
+    const el = document.querySelector(selector);
+    if (el) el.focus();
+  }, 250);
+}
+
+const ctaReadiness = document.getElementById("ctaReadiness");
+if (ctaReadiness) {
+  ctaReadiness.addEventListener("click", (e) => {
+    e.preventDefault();
+    jumpToContactAndFocus('#leadForm input[name="name"], #auditForm input[name="name"]');
+  });
+}
+
+const ctaAudit = document.getElementById("ctaAudit");
+if (ctaAudit) {
+  ctaAudit.addEventListener("click", (e) => {
+    e.preventDefault();
+    jumpToContactAndFocus('#auditForm input[name="name"]');
+  });
+}
