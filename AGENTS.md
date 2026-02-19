@@ -1,76 +1,41 @@
-# AGENTS.md — Master Implementation Letter
+# AGENTS.md — Mopik Automation Portfolio (Master Implementation Letter)
 
-## The Mandate (North Star)
-Build a consulting portfolio website for Mopik Automation designed to attract e-commerce brands and streamers seeking promotional and workflow automation.
+## The Mandate (Target Career Outcome)
+Build a professional portfolio/landing site for **Mopik Automation**, positioned for **NYC/NJ** streamers and e-commerce operators who want to automate promotional workflows. The site must communicate value in under 5 seconds and drive visitors to a clear CTA.
 
-The goal is to convert visitors into leads by presenting automation services, proof projects, and a strong call-to-action within 5 seconds of landing on the site.
+## The Tech Stack (Chosen Tools + Why)
+- **HTML / CSS / JavaScript** — fastest deploy, no build system required.
+- **GitHub Pages** — free hosting, simple workflow for NJIT coursework.
+- **Mailto Lead-Gen Forms** — no backend needed; generates an email draft instantly.
 
----
-
-## Target Audience
-
-Primary:
-- E-commerce store owners
-- Online brands
-
-Secondary:
-- Streamers
-- Content creators
-- Social media personalities
-
-Geography Focus:
-- NYC
-- New Jersey
-- Remote U.S.
-
----
-
-## Core Service Offerings
-
-- Social media promotion automation
-- Stream overlay & branding systems
-- E-commerce promotional workflows
-- AI content & posting automation
-
----
-
-## Value Proposition
-
-“I help streamers and e-commerce brands automate promotional workflows so they can scale faster without manual marketing effort.”
-
----
-
-## Tech Stack
-
-- HTML / CSS / JavaScript — lightweight, fast deployment
-- Python — automation scripting
-- OBS — streaming integrations
-- GitHub Pages — hosting
-
----
-
-## Sitemap
-
-1. Hero Section  
-2. Services Section  
-3. Case Studies  
-4. About Section  
-5. Contact / Lead Generation  
-
----
+## The Sitemap (Required Sections)
+1. **Hero**
+   - One-sentence value proposition
+   - Primary CTA: “Claim Your AI Readiness Score”
+   - Secondary CTA: “Get a Free Automation Audit”
+2. **Services**
+   - Social Media Promotion Automation
+   - Streamer Systems & Overlays (OBS)
+   - E-commerce Promo Workflows
+   - AI Content & Posting Systems
+3. **Case Studies**
+   - Class Websites (Responsive Front-End)
+   - Stream Overlay Systems (Creator Branding)
+4. **About**
+   - Skills + tools overview
+5. **Lead-Gen / Contact**
+   - AI Readiness Score form (generates email)
+   - Free Automation Audit form (generates email)
 
 ## Non-Negotiables
-
-- Mobile responsive
-- SEO keywords for NJ/NY
-- CTA above the fold
-- Professional consulting aesthetic
-
----
+- **Mobile responsive** layout and readable typography.
+- **SEO keywords** targeting NJ/NY/NYC automation services:
+  - “streamer automation”, “e-commerce automation”, “NYC”, “NJ”, “NJIT”
+- **Clear CTA above the fold**
+  - Visitors must know: who it’s for + what it does + what to do next.
 
 ## Definition of Done
-
-- Site deployed on GitHub Pages
-- Functional CTA
-- 2 case studies
-- Repo includes README + AGENTS.md
+- Site deployed on GitHub Pages and loads at https://modrilexx.github.io/
+- Repo includes README.md + AGENTS.md + codebase
+- Nav links jump to sections correctly
+- Both lead-gen forms generate an email draft via mailto

@@ -1,21 +1,19 @@
-# Mopik Automation — AI Promotion & Workflow Automation
+# Mopik Automation — Career-Engineered Portfolio (IS117)
 
-## Live Site
-https://modrilexx.github.io/Mopik-Automation-Portfolio/
+## Live Link
+https://modrilexx.github.io/
 
-## What This Is
-Mopik Automation is a consulting-style portfolio targeted at e-commerce brands and streamers who want to automate promotional workflows and reduce manual marketing tasks.
+## Repository
+https://github.com/Modrilexx/Modrilexx.github.io
 
-## Primary Call to Action (CTA)
-**Claim Your AI Readiness Score**  
-Secondary CTA: **Get a Free Automation Audit**
+## Overview
+This project is a Career-Engineered Portfolio site for **Mopik Automation**, focused on automation systems for **streamers** and **e-commerce brands** in **NYC/NJ**. The site includes a clear CTA and lead-gen forms that generate pre-filled email requests.
 
 ## Orchestration Log (AI Error + Fix)
-The AI initially recommended a heavier framework setup that would slow deployment and complicate GitHub Pages hosting. I corrected this by pivoting to a lightweight HTML/CSS/JS structure to ship faster and keep the repo simple.
+During development, the deployed site displayed raw HTML code instead of rendering the page. The root cause was editing `index.html` using TextEdit in rich-text mode, which escaped HTML into `&lt;` and wrapped it in Apple `<span>` tags. The fix was rewriting `index.html` as plain HTML via Terminal and ensuring GitHub Pages served the correct root structure.
 
-## Repo Checklist (for grading)
-- `README.md` — human-facing overview + live link
-- `AGENTS.md` — master orchestration letter (source of truth for the build)
-- `index.html` + `/css` + `/js` — website codebase
-- `/assets` — images/screenshots for case studies
-# Mopik-Automation-Portfolio
+## Files Included (Rubric)
+- `README.md` — human-facing project overview + live link + orchestration log
+- `AGENTS.md` — AI-facing “master implementation letter”
+- Codebase — `index.html`, `css/styles.css`, `js/main.js`, and assets
+
