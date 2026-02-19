@@ -18,8 +18,7 @@ if (leadForm) {
       `Hi Mopik Automation,\n\nI want to claim an AI Readiness Score.\n\nBusiness/Channel: ${name}\nCurrent promo workflow: ${workflow}\nGoal: ${goal}\n\nThanks!`
     );
 
-    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
-  });
+    window.open(`mailto:${email}?subject=${subject}&body=${body}`, "_self");  });
 }
 
 // Free Automation Audit form
@@ -37,8 +36,7 @@ if (auditForm) {
       `Hi Mopik Automation,\n\nI'd like a free automation audit.\n\nBusiness/Channel: ${name}\nWhat I do now: ${current}\nWhat I want automated: ${want}\n\nThanks!`
     );
 
-    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
-  });
+    window.open(`mailto:${email}?subject=${subject}&body=${body}`, "_self");  });
 }
 
 // CTA focus helpers
